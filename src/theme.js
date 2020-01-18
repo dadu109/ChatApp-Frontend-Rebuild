@@ -12,13 +12,19 @@ const theme = {
         s:'24px',
         m:'36px',
         l:'44px',
-        xl:'64px'
+        xl:'64px',
+        xxl:'72px'
+    },
+    breakpoint:{
+        smallmobile:'320px',
+        mobile:'414px',
+        tablet:'834px',
+        desktop:'1440px'
     }
 };
 
 
 export const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
   body {
     font-family: 'Montserrat', sans-serif;
   }
